@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+  <title>Techida</title>
+  <style>
+    /* Common CSS */
+
+    .z1se {
+      padding: 30px 0;
+    }
+
+    .z1d1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .z1i1 {
+      width: 100%;
+    }
+
+    .z1s1 {
+      color: var(--color);
+    }
+
+    .z2s1 {
+      color: var(--color);
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .z1p1 {
+      margin: 15px 0;
+      line-height: 32px;
+      color: hsla(0, 0%, 0%, 0.5);
+    }
+
+    .z1a1 {
+      text-decoration: none;
+      background-color: var(--color);
+      color: white;
+      padding: 10px 30px;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 15px;
+      border-style: none;
+    }
+
+    .z2hg1 {
+      margin: 10px 0;
+    }
+
+
+    .z2a1 {
+      text-decoration: none;
+      color: var(--color);
+      font-weight: bold;
+    }
+
+    .z1d3 {
+      width: 49%;
+    }
+
+    .z7p2 {
+      width: 55%;
+    }
+
+    /* Section 1 */
+
+    #z1h1 {
+      font-size: 55px;
+    }
+
+
+    /*  section 2*/
+
+    #z2d1 {
+      flex-wrap: wrap;
+    }
+
+    .z2d2 {
+      width: 32%;
+      margin: 1% 0;
+      background-color: var(--colorbg);
+      padding: 3% 2%;
+    }
+
+    .z2i1 {
+      width: 60px;
+      margin: 10px 0;
+      filter: invert(59%) sepia(16%) saturate(3372%) hue-rotate(94deg) brightness(83%) contrast(76%);
+    }
+
+    .z2hh1 {
+      font-size: 26px;
+    }
+
+    /* Section 4 */
+
+    #z4d1 {
+      flex-wrap: wrap;
+    }
+
+    .z4d2 {
+      width: 47%;
+      background-color: var(--colorbg);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 20px 0px 20px 15px;
+    }
+
+    .z4i1 {
+      margin-right: 10px;
+      filter: invert(59%) sepia(16%) saturate(3372%) hue-rotate(94deg) brightness(83%) contrast(76%);
+      font-weight: bold;
+    }
+
+    /*  section 5 */
+    .z5d1 {
+      margin-bottom: 30px;
+    }
+
+    .z5s1 {
+      float: right;
+    }
+
+    .z5d2 {
+      clear: both;
+      height: 8px;
+      width: 100%;
+      border-radius: 4px;
+      background-color: var(--colorbg);
+      margin-top: 5px;
+      position: relative;
+    }
+
+    .z5d2::before {
+      content: "";
+      height: 8px;
+      background-color: var(--color);
+      position: absolute;
+      border-radius: 4px;
+
+    }
+
+    #z5d3::before {
+      width: 70%;
+    }
+
+    #z5d4::before {
+      width: 20%;
+    }
+
+    #z5d5::before {
+      width: 50%;
+    }
+
+    /* section 6 */
+
+    #z6se1 {
+      background-color: rgb(0, 0, 0);
+    }
+
+    #z6d1 {
+      padding: 60px 0;
+      flex-wrap: wrap;
+    }
+
+    .z6d2 {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .z6s1 {
+      font-size: 50px;
+    }
+
+    .z6s2 {
+      font-size: 26px;
+      color: white;
+    }
+
+    /* section 7 */
+
+    #z7d1 {
+      flex-wrap: wrap;
+    }
+
+    .z7d2 {
+      width: 32%;
+      background-color: var(--colorbg);
+      padding: 30px 1.2%;
+      border-radius: 5px;
+    }
+
+    .z7s1 {
+      font-size: 50px;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    /* section 8 */
+
+    #z8d1 {
+      margin: 20px 0;
+    }
+
+    .z1a2 {
+      text-decoration: none;
+      padding-right: 15px;
+      color: var(--fontColor);
+      font-weight: bold;
+    }
+
+    #z8d2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .z8i1 {
+      display: block;
+      max-width: 377px;
+      border-radius: 5px;
+      margin-bottom: 1.5%;
+    }
+
+    /* section 9 */
+    #z9d1 {
+      background-color: var(--colorbg);
+    }
+
+    .z9i1 {
+      max-width: 185px;
+      width: 100%;
+      overflow: hidden;
+      filter: invert(0%) sepia(11%) saturate(24%) hue-rotate(2deg) brightness(96%) contrast(105%);
+    }
+
+    /* section 10 */
+
+    .z10d2 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: var(--colorbg);
+      padding: 20px;
+      margin: 0 10px;
+      border-radius: 5px;
+    }
+
+    .z10i1 {
+      max-width: 60px;
+      width: 100%;
+      filter: invert(59%) sepia(6%) saturate(20%) hue-rotate(358deg) brightness(95%) contrast(88%);
+
+    }
+
+    .z10s1 {
+      font-weight: bold;
+      font-size: 25px;
+      margin: 10px 0;
+    }
+
+    .z10s2 {
+      font-size: 55px;
+      color: var(--color);
+      font-weight: bold;
+      margin: 10px 0;
+
+    }
+
+    .z10s3 {
+      font-size: 20px;
+      margin: 10px 0 30px 0;
+      font-weight: bold;
+      color: var(--fontColor);
+    }
+
+    .z10u1 {
+      list-style-type: none;
+      color: var(--fontColor);
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .z10li1 {
+      margin: 10px 0;
+      position: relative;
+    }
+
+    .z10a1 {
+      margin-top: 35px;
+    }
+
+    /* .z10d2:hover {
+      background-color: var(--color);
+    } */
+
+    #z10d3 {
+      background-color: var(--color);
+    }
+
+    #z10i2 {
+      filter: invert(96%) sepia(5%) saturate(402%) hue-rotate(13deg) brightness(110%) contrast(88%);
+    }
+
+    #z10s4 {
+      color: white;
+    }
+
+    #z10s5,
+    #z10u2 {
+      color: var(--colorbg);
+    }
+
+    #z10a2 {
+      background-color: white;
+      color: var(--color);
+    }
+
+    .z10li2::before {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background: url("img/icons/correct.png") no-repeat center center;
+      background-size: contain;
+
+    }
+
+    .z10li3::before {
+      content: "";
+      display: inline-block;
+      width: 14px;
+      height: 20px;
+      background: url("img/icons/wrong2.png") no-repeat center center;
+      background-size: contain;
+      position: relative;
+      top: 3px;
+      right: 4px;
+    }
+
+    #z10li4::before,
+    #z10li5::before {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background: url("img/icons/correct.png") no-repeat center center;
+      filter: invert(0%) sepia(5%) saturate(750%) hue-rotate(261deg) brightness(30%) contrast(106%);
+      background-size: contain;
+    }
+
+    /* section 11 */
+
+    .z11d2 {
+      width: 32%;
+      background-color: var(--colorbg);
+      padding: 30px 20px;
+      border-radius: 5px;
+    }
+
+    .z11d3 {
+      display: flex;
+      align-items: center;
+    }
+
+    .z11i1 {
+      width: 70px;
+      border-radius: 50px;
+    }
+
+    .z11d4 {
+      margin-left: 30px;
+    }
+
+    .z11s1 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .z11i2 {
+      width: 20px;
+      filter: invert(75%) sepia(70%) saturate(3530%) hue-rotate(14deg) brightness(94%) contrast(98%);
+    }
+
+    /* section 12 */
+
+    .z12d2 {
+      width: 23%;
+      text-align: center;
+      background-color: var(--colorbg);
+      border-radius: 5px;
+    }
+
+    .z12i1 {
+      width: 100%;
+    }
+
+    .z12s1 {
+      display: block;
+      font-size: 25px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .z12s2 {
+      display: block;
+      /* color: #C5A403; */
+      color: var(--fontColor);
+    }
+
+    .z12d3 {
+      justify-content: space-evenly;
+      margin: 15px auto;
+      width: 60%;
+    }
+
+    .z12i2 {
+      width: 20px;
+      filter: invert(84%) sepia(4%) saturate(7%) hue-rotate(338deg) brightness(45%) contrast(84%);
+    }
+
+    /* section 13 */
+    .z13d2 {
+      width: 32%;
+      height: auto;
+      border-radius: 5px;
+      background-color: var(--colorbg);
+    }
+
+    .z13d3 {
+      padding: 20px 10px;
+    }
+
+    .z13i1 {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .z13d4 {
+      margin-bottom: 10px;
+      font-size: 13px;
+    }
+
+    .z13hh1 {
+      line-height: 1.7;
+      margin: 20px 0;
+    }
+
+    .z13i2 {
+      margin: 0 5px;
+      filter: invert(44%) sepia(82%) saturate(2886%) hue-rotate(116deg) brightness(99%) contrast(76%);
+    }
+
+    /* section 14 */
+
+    #z14d1 {
+      display: flex;
+      flex-direction: column;
+      padding: 0 1%;
+
+    }
+
+    .z14d2 {
+      background-color: var(--colorbg);
+      /* padding: 20px; */
+      margin: 2% 0;
+      border-radius: 5px;
+    }
+
+    .z14hh1 {
+      font-size: 16px;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .z14hh1::after {
+      content: "\2304";
+      font-size: 20px;
+      float: right;
+      color: var(--color);
+    }
+
+    .z14p3 {
+      display: none;
+      padding: 0px 20px 20px;
+      color: var(--fontColor);
+      overflow: hidden;
+      transition: max-height 0.9s ease-out;
+
+    }
+
+    /* section 15 */
+
+    #z15d1 {
+      margin-top: 30px;
+      padding: 0 3%;
+    }
+
+    .z15d2 {
+      display: flex;
+      align-items: center;
+      margin: 24px 0;
+      font-size: 18px;
+      font-weight: bold;
+      color: var(--fontColor);
+      letter-spacing: 1px;
+    }
+
+    .z15i1 {
+      filter: invert(59%) sepia(16%) saturate(3372%) hue-rotate(94deg) brightness(83%) contrast(76%);
+      margin-right: 20px;
+    }
+
+    #z15f1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .z15in1,
+    .z16ta1 {
+      border-style: none;
+      background-color: var(--colorbg);
+      margin: 1% 0;
+      outline: none;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+
+
+
+    #z15in2,
+    #z15in3 {
+      width: 49%;
+    }
+
+    #z15in4 {
+      display: block;
+      width: -webkit-fill-available;
+    }
+
+    .z16ta1 {
+      width: 100%;
+    }
+
+    #z16ta1 {
+      border-style: none;
+      width: 130px;
+      margin: 0 auto;
+    }
+
+    /* section 16 */
+
+    #z16f1 {
+      width: 100%;
+      height: 400px;
+      border-radius: 5px;
+      border-style: none;
+    }
+
+    /* Mobile Responsive */
+    @media screen and (max-width:1200px) {
+
+      /* section 8 */
+      .z8i1 {
+        width: 32%;
+      }
+
+      /* section 9 */
+      #z9d2 {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+
+      .z9i1 {
+        margin: 1.5% 0;
+        max-width: 29%;
+      }
+    }
+
+    @media screen and (max-width:920px) {
+
+      /* common */
+      .z1d1 {
+        flex-direction: column;
+      }
+
+      .z1d3 {
+        width: 100%;
+      }
+
+      .z1i1 {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      /* section 6 */
+      .z6d2 {
+        width: 48%;
+        margin-bottom: 30px;
+      }
+
+      /* section 7 */
+      .z7d2 {
+        width: 32%;
+      }
+
+      /* section 10 */
+      #z10d1 {
+        /* display: block; */
+        flex-wrap: wrap;
+      }
+
+      .z10d2 {
+        width: 47%;
+        margin-bottom: 20px;
+      }
+
+      /* section 11 */
+      #z11d1 {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: baseline;
+      }
+
+      .z11d2 {
+        width: 49%;
+        margin-bottom: 10px;
+      }
+
+      /* section 12 */
+
+      #z12d1 {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+
+      .z12d2 {
+        width: 48%;
+        margin-bottom: 2%;
+      }
+
+      /* section 13 */
+      #z13d1 {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+
+      .z13d2 {
+        width: 49%;
+        margin-bottom: 10px;
+      }
+
+      /* section 14 */
+      .z14d2 {
+        width: 90%;
+        margin: 10px auto;
+      }
+
+      /* section 15 */
+      #z15in3 {
+        width: 50%;
+      }
+
+    }
+
+    @media screen and (max-width:800px) {
+
+      /* common */
+      .z7p2 {
+        width: 100%;
+      }
+
+      /* section 3 */
+      .z2d2 {
+        width: 49%;
+      }
+
+      /* section 7 */
+      #z7d1 {
+        justify-content: space-around;
+      }
+
+      .z7d2 {
+        width: 49%;
+        margin-bottom: 8px;
+
+      }
+    }
+
+    @media screen and (max-width:760px) {
+
+      /* section 8 */
+      .z8i1 {
+        width: 49%;
+      }
+
+    }
+
+    @media screen and (max-width:690px) {
+
+      /* section 10 */
+      #z10d1 {
+        justify-content: space-around;
+      }
+
+      .z10d2 {
+        width: 90%;
+      }
+
+      /* section 2 */
+      .z2hh1 {
+        font-size: 23px;
+      }
+
+      /* section 11 */
+      .z11d2 {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      /* section 13 */
+      .z13d2 {
+        width: 98%;
+        margin-bottom: 15px;
+      }
+
+      .z13d3 {
+        padding: 20px;
+      }
+    }
+
+    @media screen and (max-width:510px) {
+
+      /* common */
+      .z1a1 {
+        display: inline-block;
+        margin: 10px 0;
+      }
+
+      /* section 1 */
+      .z1d2 {
+        text-align: center;
+        /* font-size: 35px; */
+      }
+
+
+      /* section 3 */
+      .z2d2 {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+
+      /* section 4 */
+      #z4d1 {
+        justify-content: space-around;
+      }
+
+      .z4d2 {
+        width: 90%;
+
+      }
+
+      /* section 6 */
+      .z6d2 {
+        width: 98%;
+      }
+
+      /* section 7 */
+      .z7d2 {
+        width: 98%;
+        padding: 2%;
+        margin-bottom: 15px;
+      }
+
+      /* section 14 */
+      .z14d2 {
+        width: 99%;
+      }
+
+      /* section 10 */
+      .z10d2 {
+        width: 90%;
+      }
+
+    }
+
+    @media screen and (max-width:450px) {
+
+      /* common */
+      .z1se {
+        padding: 15px 0;
+      }
+
+      /* section 9 */
+      .z9i1 {
+        max-width: 45%;
+      }
+
+      /* section 8 */
+      .z8i1 {
+        width: 98%;
+        margin: 5px auto;
+      }
+
+      /* section 12 */
+      .z12d2 {
+        width: 98%;
+        margin-bottom: 3%;
+      }
+
+      /* section 15 */
+      .z15d2 {
+        font-size: 16px;
+      }
+
+      #z15in2,
+      #z15in3 {
+        width: 100%;
+      }
+
+      .z15in5 {
+        margin-bottom: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- header -->
+  <header id="hd">
+    <div id="d1" class="w fsb">
+      <img id="i1" src="img/logo.png" alt="logo">
+      <nav id="n" class="n">
+        <a class="a" href="#">Home</a>
+        <a class="a" href="#">About</a>
+        <a class="a" href="#">Services</a>
+        <a class="a" href="#">Pages</a>
+        <a class="a" href="#">Portfolio</a>
+        <a class="a" href="#">Blog</a>
+        <a class="a" href="#">Contact Us</a>
+      </nav>
+      <div id="d2" class="d2">
+        <a class="a2" href="#">Join Now</a>
+        <button id="bt"><img id="i2" src="img/dark-mode.png" alt="dark-mode"></button>
+      </div>
+      <div id="d3">&#9776;</div>
+    </div>
+  </header>
+  <!-- section 1 -->
+  <section class="z1se">
+    <div class="w z1d1">
+      <div class="z1d3 z1d2">
+        <h1 id="z1h1">Excellent IT <span class="z1s1">Solutions</span> For Your Success</h1>
+        <p class="z1p1">At Any Rate, Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Eaque Amet, Quod
+          Doloribus The Framework Of The Essence Represents A Bond Between The Flexible Production Planning And The
+          Distribution Of Repetitive Aspect</p>
+        <a class="z1a1" href="#">Join Now</a>
+      </div>
+      <div class="">
+        <img class="z1i1"
+          src="img/bodigmas_IT_solutions_company_illustrationvectorflat_designmini_942ad818-e3f4-47af-a5e8-78e030aff9c9-removebg.png"
+          alt="background Image">
+      </div>
+    </div>
+  </section>
+  <!-- section 2 -->
+  <section class="z1se">
+    <div class="w">
+      <hgroup class="z2hg1 z1d2">
+        <p><span class="z2s1">our services</span></p>
+        <h1 class="z2h1">What We're Offering?</h1>
+        <p class="z1p1">As A Matter Of Fact The Unification Of The Coherent Software Provides A Strict Control Over The
+          <br>
+          Accomplishment Of Intended Estimation
+        </p>
+      </hgroup>
+      <div id="z2d1" class="fsb">
+        <div class="z2d2">
+          <img class="z2i1" src="img/icons/coding.png" alt="Web Development">
+          <h2 class="z2hh1">Web Development</h2>
+          <p class="z1p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio unde, exped
+            ita nesciunt quibusdam quis tempore quas tenetur</p>
+          <a class="z2a1" href="#">Learn More &#11106;</a>
+        </div>
+        <div class="z2d2">
+          <img class="z2i1" src="img/icons/advertisement.png" alt="Digital Marketing">
+          <h2 class="z2hh1">Digital Marketing</h2>
+          <p class="z1p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio unde, exped
+            ita nesciunt quibusdam quis tempore quas tenetur</p>
+          <a class="z2a1" href="#">Learn More &#11106;</a>
+        </div>
+        <div class="z2d2">
+          <img class="z2i1" src="img/icons/search-interface-symbol.png" alt="SEO Services">
+          <h2 class="z2hh1">SEO Services</h2>
+          <p class="z1p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio unde, exped
+            ita nesciunt quibusdam quis tempore quas tenetur</p>
+          <a class="z2a1" href="#">Learn More &#11106;</a>
+        </div>
+        <div class="z2d2">
+          <img class="z2i1" src="img/icons/bug.png" alt="Cyber Security">
+          <h2 class="z2hh1">Cyber Security</h2>
+          <p class="z1p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio unde, exped
+            ita nesciunt quibusdam quis tempore quas tenetur</p>
+          <a class="z2a1" href="#">Learn More &#11106;</a>
+        </div>
+        <div class="z2d2">
+          <img class="z2i1" src="img/icons/art.png" alt="Graphic Design">
+          <h2 class="z2hh1">Graphic Design</h2>
+          <p class="z1p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio unde, exped
+            ita nesciunt quibusdam quis tempore quas tenetur</p>
+          <a class="z2a1" href="#">Learn More &#11106;</a>
+        </div>
+        <div class="z2d2">
+          <img class="z2i1" src="img/icons/android.png" alt="App Development">
+          <h2 class="z2hh1">App Development</h2>
+          <p class="z1p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio unde, exped
+            ita nesciunt quibusdam quis tempore quas tenetur</p>
+          <a class="z2a1" href="#">Learn More &#11106;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section 3 -->
+  <section class="z1se">
+    <div class="w z1d1">
+      <div class="z1d3 z1d2">
+        <hgroup class="z2hg1">
+          <p><span class="z2s1">about us</span></p>
+          <h1 class="z2h1">The Best IT Soulution Since <span class="z1s1">2015</span></h1>
+          <p class="z1p1">Although, Final Stages Of The Internal Network Gives A Complete Experience Of The Parameter Of
+            Speculative
+            Environment , Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Eligendi Voluptas Quibusdam Libero
+            Quos Rem Unde, Sequi Distinctio Eum Excepturi Nobis Facere Expedita Sint Nulla Aliquam, Odio Ea Laboriosam
+            Hic? Consectetur Ullam Eveniet</p>
+        </hgroup>
+        <a class="z1a1" href="#">Join Now</a>
+      </div>
+      <div class="z1d3">
+        <img class="z1i1" src="img/1.png" alt="Bcakground Image 2">
+      </div>
+    </div>
+  </section>
+  <!-- section 4 -->
+  <section class="z1se">
+    <div class="w z1d1">
+      <div class="z1d3">
+        <img class="z1i1" src="img/2.png" alt="background Image">
+      </div>
+      <div class="z1d3 z1d2">
+        <hgroup>
+          <h1 class="z2h1">We Deal With The Aspects Of Professional <span class="z1s1">IT Services</span></h1>
+          <p class="z1p1">Although, Final Stages Of The Internal Network Gives A Complete Experience Of The Parameter Of
+            Speculative
+            Environment</p>
+        </hgroup>
+        <div id="z4d1" class="fsb">
+          <div class="z4d2">
+            <img class="z4i1" src="img/icons/location.png" alt="location image">
+            <span>Worldwide Services</span>
+          </div>
+          <div class="z4d2">
+            <img class="z4i1" src="img/icons/support.png" alt="support">
+            <span>Support 24h/7</span>
+          </div>
+          <div class="z4d2">
+            <img class="z4i1" src="img/icons/console.png" alt="console">
+            <span>Easy To Reach</span>
+          </div>
+          <div class="z4d2">
+            <img class="z4i1" src="img/icons/star.png" alt="Start">
+            <span>First On Field</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section 5 -->
+  <section class="z1se">
+    <div class="w z1d1">
+      <div class="z1d3">
+        <hgroup class="z1d2">
+          <h1 class="z2h1">We Are Here To IT Soulution With 20 Years Of <span class="z1s1">Experience</span></h1>
+          <p class="z1p1">Although, Final Stages Of The Internal Network Gives A Complete Experience Of The Parameter Of
+            Speculative Environment</p>
+        </hgroup>
+        <div>
+          <div class="z5d1">
+            <span>App Development</span>
+            <span class="z5s1">70%</span>
+            <div class="z5d2" id="z5d3"></div>
+          </div>
+          <div class="z5d1">
+            <span>UI/UX Design</span>
+            <span class="z5s1">20%</span>
+            <div class="z5d2" id="z5d4"></div>
+          </div>
+          <div class="z5d1">
+            <span>Web Development</span>
+            <span class="z5s1">55%</span>
+            <div class="z5d2" id="z5d5"></div>
+          </div>
+        </div>
+      </div>
+      <div class="z1d3">
+        <img class="z1i1" src="img/3.png" alt="Background Image">
+      </div>
+    </div>
+  </section>
+  <!-- section 6 -->
+  <div class="z1se" id="z6se1">
+    <div class="w">
+      <div class="fsb" id="z6d1">
+        <div class="z6d2">
+          <span class="z6s1 z1s1">58</span>
+          <span class="z6s2">Happy Clients</span>
+        </div>
+        <div class="z6d2">
+          <span class="z6s1 z1s1">6</span>
+          <span class="z6s2">Hard Worker</span>
+        </div>
+        <div class="z6d2">
+          <span class="z6s1 z1s1">86</span>
+          <span class="z6s2">Complete Project</span>
+        </div>
+        <div class="z6d2">
+          <span class="z6s1 z1s1">3</span>
+          <span class="z6s2">Years of Experience</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- section 7 -->
+  <section class="z1se">
+    <div class="w">
+      <hgroup class="z2hg1 z1d2">
+        <p><span class="z2s1">why choose Us</span></p>
+        <h1 class="z2h1">Why Our Clients Choose Us</h1>
+        <p class="z1p1 z7p2">As A Matter Of Fact The Unification Of The Coherent Software Provides A Strict
+          Control Over The
+          Accomplishment Of Intended Estimation</p>
+      </hgroup>
+      <div class="fsb" id="z7d1">
+        <div class="z7d2">
+          <span class="z1s1 z7s1">01.</span>
+          <h2>Latest Technologies</h2>
+          <p class="z1p1">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Optio Unde, Exped Ita Nesciunt
+            Quibusdam Quis
+            Tempore Quas Tenetur</p>
+        </div>
+        <div class="z7d2">
+          <span class="z1s1 z7s1">02.</span>
+          <h2>Uniqe Solutions</h2>
+          <p class="z1p1">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Optio Unde, Exped Ita Nesciunt
+            Quibusdam Quis
+            Tempore Quas Tenetur</p>
+        </div>
+        <div class="z7d2">
+          <span class="z1s1 z7s1">03.</span>
+          <h2>Powerful Strategies</h2>
+          <p class="z1p1">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Optio Unde, Exped Ita Nesciunt
+            Quibusdam Quis
+            Tempore Quas Tenetur</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section 8 -->
+  <section class="z1se">
+    <div class="w">
+      <hgroup>
+        <p><span class="z2s1">Portfolio</span></p>
+        <h1 class="z2h1">Our Portfolio</h1>
+      </hgroup>
+      <div id="z8d1">
+        <a class="z1a2" href="#">All</a>
+        <a class="z1a2" href="#">Mobile</a>
+        <a class="z1a2" href="#">Data</a>
+        <a class="z1a2" href="#">Web</a>
+      </div>
+      <div id="z8d2">
+        <img class="z8i1" src="img/1.jpg" alt="image 1">
+        <img class="z8i1" src="img/2.jpg" alt="image 2">
+        <img class="z8i1" src="img/3.jpg" alt="image 3">
+        <img class="z8i1" src="img/4.png" alt="image 4">
+        <img class="z8i1" src="img/5.jpeg" alt="image 5">
+        <img class="z8i1" src="img/6.jpg" alt="image 6">
+      </div>
+    </div>
+  </section>
+  <!-- section 9 -->
+  <div class="z1se" id="z9d1">
+    <div class="w">
+      <div class="fsb" id="z9d2">
+        <img class="z9i1" src="img/1-white.png" alt="company Names">
+        <img class="z9i1" src="img/2-white.png" alt="company Names">
+        <img class="z9i1" src="img/3-white.png" alt="company Names">
+        <img class="z9i1" src="img/4-white.png" alt="company Names">
+        <img class="z9i1" src="img/5-white.png" alt="company Names">
+        <img class="z9i1" src="img/6-white.png" alt="company Names">
+        <!-- <img class="z9i1" src="img/7-white.png" alt="company Names"> -->
+      </div>
+    </div>
+  </div>
+  <!-- section 10 -->
+  <section class="z1se">
+    <div class="w">
+      <hgroup class="z1d2">
+        <p><span class="z2s1">pricing</span></p>
+        <h1 class="z2h1">Our Pricing</h1>
+        <p class="z1p1 z7p2">As A Matter Of Fact The Unification Of The Coherent Software Provides A Strict Control
+          Over
+          The
+          Accomplishment Of Intended Estimation</p>
+      </hgroup>
+      <div class="fsb" id="z10d1">
+        <div class="z10d2">
+          <img class="z10i1" src="img/icons/shopping-cart.png" alt="shopping-cart">
+          <span class="z10s1">Free</span>
+          <span class="z10s2">00$</span>
+          <span class="z10s3">Pre Project</span>
+          <ul class="z10u1">
+            <li class="z10li1 z10li2">Single User</li>
+            <li class="z10li1 z10li2">No Updates</li>
+            <li class="z10li1 z10li2">Limited Access library</li>
+            <li class="z10li1 z10li2">Lorem Ipsum</li>
+            <li class="z10li1 z10li2">Dolor Sit Amet</li>
+          </ul>
+          <a class="z1a1 z10a1" href="#">Start Now</a>
+        </div>
+        <div class="z10d2">
+          <img class="z10i1" src="img/icons/money.png" alt="money">
+          <span class="z10s1">Basic</span>
+          <span class="z10s2">19$</span>
+          <span class="z10s3">Pre Project</span>
+          <ul class="z10u1">
+            <li class="z10li1 z10li2">Single User</li>
+            <li class="z10li1 z10li2">No Updates</li>
+            <li class="z10li1 z10li2">Limited Access library</li>
+            <li class="z10li1 z10li2">Lorem Ipsum</li>
+            <li class="z10li1 z10li3">Dolor Sit Amet</li>
+          </ul>
+          <a class="z1a1 z10a1" href="#">Start Now</a>
+        </div>
+        <div class="z10d2" id="z10d3">
+          <img class="z10i1" id="z10i2" src="img/icons/dollar-bill.png" alt="dollar-bill">
+          <span class="z10s1">Standerd</span>
+          <span class="z10s2" id="z10s4">39$</span>
+          <span class="z10s3" id="z10s5">Pre Project</span>
+          <ul class="z10u1" id="z10u2">
+            <li class="z10li1" id="z10li4">Single User</li>
+            <li class="z10li1" id="z10li5">No Updates</li>
+            <li class="z10li1 z10li3">Limited Access library</li>
+            <li class="z10li1 z10li3">Lorem Ipsum</li>
+            <li class="z10li1 z10li3">Dolor Sit Amet</li>
+          </ul>
+          <a class="z1a1 z10a1" id="z10a2" href="#">Start Now</a>
+        </div>
+        <div class="z10d2">
+          <img class="z10i1" src="img/icons/money-and-coin.png" alt="money and coin">
+          <span class="z10s1">Pro</span>
+          <span class="z10s2">99$</span>
+          <span class="z10s3">Pre Project</span>
+          <ul class="z10u1">
+            <li class="z10li1 z10li2">Single User</li>
+            <li class="z10li1 z10li2">No Updates</li>
+            <li class="z10li1 z10li3">Limited Access library</li>
+            <li class="z10li1 z10li3">Lorem Ipsum</li>
+            <li class="z10li1 z10li3">Dolor Sit Amet</li>
+          </ul>
+          <a class="z1a1 z10a1" href="#">Start Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section 11 -->
+  <section class="z1se">
+    <div class="w">
+      <hgroup class="z1d2">
+        <p><span class="z2s1">testimnials</span></p>
+        <h1 class="z2h1">Custmers Testimnials</h1>
+        <p class="z1p1 z7p2">As A Matter Of Fact The Unification Of The Coherent Software Provides A Strict Control
+          Over
+          The
+          Accomplishment Of Intended Estimation</p>
+      </hgroup>
+      <div class="fsb" id="z11d1">
+        <div class="z11d2">
+          <div class="z11d3">
+            <img class="z11i1" src="img/testimonials-1.jpg" alt="customers">
+            <div class="z11d4">
+              <span class="z11s1">Ahmad Errami</span>
+              <div>
+                <img class="z11i2" src="img/icons/5star.png" alt="stars">
+                <img class="z11i2" src="img/icons/5star.png" alt="stars">
+                <img class="z11i2" src="img/icons/5star.png" alt="stars">
+                <img class="z11i2" src="img/icons/5star.png" alt="stars">
+                <img class="z11i2" src="img/icons/5star.png" alt="stars">
+              </div>
+            </div>
+          </div>
+          <p class="z1p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, labore dolore laborum dolorum
+            culpa
+            ducimus ipsam quo, veniam animi pariatur facilis tempora incidunt nostrum quisquam, cum quasi laudantium?
+            Voluptates, sequi? Possimus ipsa, excepturi praesentium dolore quae placeat voluptatem doloremque
+            deserunt?</p>
+        </div>
+        <div class="z11d2">
+          <div class="z11d3">
+            <img class="z11i1" src="img/testimonials-2.jpg" alt="customers">
+            <div class="z11d4">
+              <span class="z11s1">John Wick</span>
+              <div>
+                <img class="z11i2" src="img/icons/5star.png" alt="stars">
+                <img class="z11i2" src="img/icons/5star.png" alt="stars">
+                <img class="z11i2" src="img/icons/5star.png" alt="stars">
+                <img class="z11i2" src="img/icons/5star.png" alt="stars">
+                <img class="z11i2" src="img/icons/5star-body.png" alt="stars">
+              </div>
+            </div>
+          </div>
+          <p class="z1p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, labore dolore laborum dolorum
+            culpa
+            ducimus ipsam quo, veniam animi pariatur facilis tempora incidunt nostrum quisquam, cum quasi laudantium?
+            Voluptates, sequi? Possimus ipsa, excepturi praesentium dolore quae placeat voluptatem doloremque
+            deserunt?</p>
+        </div>
+        <div class="z11d2">
+          <div class="z11d3">
+            <img class="z11i1" src="img/testimonials-3.jpg" alt="customers">
+            <div class="z11d4">
+              <span class="z11s1">Saul Goodman</span>
+              <div>
+                <img class="z11i2" src="img/icons/5star.png" alt="stars">
+                <img class="z11i2" src="img/icons/5star.png" alt="stars">
+                <img class="z11i2" src="img/icons/5star.png" alt="stars">
+                <img class="z11i2" src="img/icons/5star-body.png" alt="stars">
+                <img class="z11i2" src="img/icons/5star-body.png" alt="stars">
+              </div>
+            </div>
+          </div>
+          <p class="z1p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, labore dolore laborum dolorum
+            culpa
+            ducimus ipsam quo, veniam animi pariatur facilis tempora incidunt nostrum quisquam, cum quasi laudantium?
+            Voluptates, sequi? Possimus ipsa, excepturi praesentium dolore quae placeat voluptatem doloremque
+            deserunt?</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- section 12 -->
+  <section class="z1se">
+    <div class="w">
+      <hgroup class="z1d2">
+        <p><span class="z2s1">Team</span></p>
+        <h1 class="z2h1">Our Team</h1>
+        <p class="z1p1 z7p2">As A Matter Of Fact The Unification Of The Coherent Software Provides A Strict Control
+          Over
+          The
+          Accomplishment Of Intended Estimation</p>
+      </hgroup>
+      <div class="fsb" id="z12d1">
+        <div class="z12d2">
+          <img class="z12i1" src="img/team-1.jpg" alt="Team Members">
+          <span class="z12s1">Bodih Dgmas</span>
+          <span class="z12s2">Front-End Developer</span>
+          <div class="z12d3 fsb">
+            <a href="#"><img class="z12i2" src="img/icons/facebook.png" alt="facebook"></a>
+            <a href="#"><img class="z12i2" src="img/icons/instagram.png" alt="instagram"></a>
+            <a href="#"><img class="z12i2" src="img/icons/twitter.png" alt="twitter"></a>
+            <a href="#"><img class="z12i2" src="img/icons/linkedin-logo.png" alt="linkedin"></a>
+          </div>
+        </div>
+        <div class="z12d2">
+          <img class="z12i1" src="img/team-2.jpg" alt="Team Members">
+          <span class="z12s1">Ahmad Errami</span>
+          <span class="z12s2">Back-End Developer</span>
+          <div class="z12d3 fsb">
+            <a href="#"><img class="z12i2" src="img/icons/facebook.png" alt="facebook"></a>
+            <a href="#"><img class="z12i2" src="img/icons/instagram.png" alt="instagram"></a>
+            <a href="#"><img class="z12i2" src="img/icons/twitter.png" alt="twitter"></a>
+            <a href="#"><img class="z12i2" src="img/icons/linkedin-logo.png" alt="linkedin"></a>
+          </div>
+        </div>
+        <div class="z12d2">
+          <img class="z12i1" src="img/team-3.jpg" alt="Team Members">
+          <span class="z12s1">John Smith</span>
+          <span class="z12s2">Web Designer</span>
+          <div class="z12d3 fsb">
+            <a href="#"><img class="z12i2" src="img/icons/facebook.png" alt="facebook"></a>
+            <a href="#"><img class="z12i2" src="img/icons/instagram.png" alt="instagram"></a>
+            <a href="#"><img class="z12i2" src="img/icons/twitter.png" alt="twitter"></a>
+            <a href="#"><img class="z12i2" src="img/icons/linkedin-logo.png" alt="linkedin"></a>
+          </div>
+        </div>
+        <div class="z12d2">
+          <img class="z12i1" src="img/team-4.jpg" alt="Team Members">
+          <span class="z12s1">Satoshi Nakamoto</span>
+          <span class="z12s2">CEO Founder</span>
+          <div class="z12d3 fsb">
+            <a href="#"><img class="z12i2" src="img/icons/facebook.png" alt="facebook"></a>
+            <a href="#"><img class="z12i2" src="img/icons/instagram.png" alt="instagram"></a>
+            <a href="#"><img class="z12i2" src="img/icons/twitter.png" alt="twitter"></a>
+            <a href="#"><img class="z12i2" src="img/icons/linkedin-logo.png" alt="linkedin"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section 13 -->
+  <section class="z1se">
+    <div class="w">
+      <hgroup class="z1d2">
+        <p><span class="z2s1">blog</span></p>
+        <h1 class="z2h1">Our Blog</h1>
+        <p class="z1p1 z7p2">As A Matter Of Fact The Unification Of The Coherent Software Provides A Strict Control
+          Over
+          The
+          Accomplishment Of Intended Estimation</p>
+      </hgroup>
+      <div class=" fsb" id="z13d1">
+        <div class="z13d2">
+          <img class="z13i1" src="img/1(1).jpg" alt="Learning Girl With Laptop">
+          <div class="z13d3">
+            <div class="z13d4 fsb">
+              <div class="fc"><img class="z13i2" src="img/icons/user(1).png" alt="user"><span>Admin</span></div>
+              <div class="fc"><img class="z13i2" src="img/icons/calendar.png" alt="calender"><span>27/05/2023</span>
+              </div>
+              <div class="fc"><img class="z13i2" src="img/icons/label.png" alt="label"><span>Web Dev</span></div>
+            </div>
+            <h2 class="z13hh1">How To Learn Javascript Easily With This Method</h2>
+            <p class="z1p1">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Explicabo Earum Id Assumenda Ad
+              Neque
+              Recusandae,
+              Quasi Deleniti Voluptatum Eos Vel Quas Molestias?</p>
+            <a class="z2a1" href="#">Read More &#11106;</a>
+          </div>
+        </div>
+        <div class="z13d2">
+          <img class="z13i1" src=" img/2(1).jpg" alt="Laptop">
+          <div class="z13d3">
+            <div class="z13d4 fsb">
+              <div class="fc"><img class="z13i2" src="img/icons/user(1).png" alt="user"><span>Admin</span></div>
+              <div class="fc"><img class="z13i2" src="img/icons/calendar.png" alt="calender"><span>27/05/2023</span>
+              </div>
+              <div class="fc"><img class="z13i2" src="img/icons/label.png" alt="label"><span>Web Dev</span></div>
+            </div>
+            <h2 class="z13hh1">Why You Shold Learn This New Javascript Framework</h2>
+            <p class="z1p1">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Explicabo Earum Id Assumenda Ad
+              Neque
+              Recusandae,
+              Quasi Deleniti Voluptatum Eos Vel Quas Molestias?</p>
+            <a class="z2a1" href="#">Read More &#11106;</a>
+          </div>
+        </div>
+        <div class="z13d2">
+          <img class="z13i1" src=" img/3(1).jpg" alt="Writing">
+          <div class="z13d3">
+            <div class="z13d4 fsb">
+              <div class="fc"><img class="z13i2" src="img/icons/user(1).png" alt="user"><span>Admin</span></div>
+              <div class="fc"><img class="z13i2" src="img/icons/calendar.png" alt="calender"><span>27/05/2023</span>
+              </div>
+              <div class="fc"><img class="z13i2" src="img/icons/label.png" alt="label"><span>Web Dev</span></div>
+            </div>
+            <h2 class="z13hh1">What Is Digital Marketing And Why Is Important?</h2>
+            <p class="z1p1">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Explicabo Earum Id Assumenda Ad
+              Neque
+              Recusandae,
+              Quasi Deleniti Voluptatum Eos Vel Quas Molestias?</p>
+            <a class="z2a1" href="#">Read More &#11106;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section 14 -->
+  <section class="z1se">
+    <div class="w">
+      <hgroup class="z1d2">
+        <p><span class="z2s1">faq</span></p>
+        <h1 class="z2h1">Frequently Asked Questions</h1>
+        <p class="z1p1 z7p2">As A Matter Of Fact The Unification Of The Coherent Software Provides A Strict Control
+          Over
+          The
+          Accomplishment Of Intended Estimation</p>
+      </hgroup>
+      <div class="z1d1">
+        <div class="z1d3"><img class="z1i1" src="img/customer.png" alt="customer"></div>
+        <div id="z14d1" class="z1d3">
+          <div class="z14d2">
+            <h2 class="z14hh1">Do You Offer Both On-Site And Remote IT Support?</h2>
+            <p class="z14p3">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Ipsum Ullam Earum Itaque, Quas
+              Labore Illo
+              Eligendi Iure Asperiores, Modi Veniam Molestiae Vero Quasi. Ex, Alias Modi Voluptates Aspernatur
+              Consequuntur Facere?</p>
+          </div>
+          <div class="z14d2">
+            <h2 class="z14hh1">What Is Techida ?</h2>
+            <p class="z14p3">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Ipsum Ullam Earum Itaque, Quas
+              Labore Illo
+              Eligendi Iure Asperiores, Modi Veniam Molestiae Vero Quasi. Ex, Alias Modi Voluptates Aspernatur
+              Consequuntur Facere?</p>
+          </div>
+          <div class="z14d2">
+            <h2 class="z14hh1">Is There Any Updates In The Future ?</h2>
+            <p class="z14p3">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Ipsum Ullam Earum Itaque, Quas
+              Labore Illo
+              Eligendi Iure Asperiores, Modi Veniam Molestiae Vero Quasi. Ex, Alias Modi Voluptates Aspernatur
+              Consequuntur Facere?</p>
+          </div>
+          <div class="z14d2">
+            <h2 class="z14hh1">How Much For The Service?</h2>
+            <p class="z14p3">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Ipsum Ullam Earum Itaque, Quas
+              Labore Illo
+              Eligendi Iure Asperiores, Modi Veniam Molestiae Vero Quasi. Ex, Alias Modi Voluptates Aspernatur
+              Consequuntur Facere?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section 15 -->
+  <section class="z1se">
+    <div class="w">
+      <hgroup class="z1d2">
+        <p><span class="z2s1">contact</span></p>
+        <h1 class="z2h1">Contact Us For Any Questions</h1>
+        <p class="z1p1 z7p2">As A Matter Of Fact The Unification Of The Coherent Software Provides A Strict Control
+          Over
+          The
+          Accomplishment Of Intended Estimation</p>
+      </hgroup>
+      <div class="z1d1">
+        <div class="z1d3">
+          <h2>Contact Info:</h2>
+          <div id="z15d1">
+            <div class="z15d2">
+              <img class="z15i1" src="img/icons/email.png" alt="Email">
+              <span>Example@Example.com</span>
+            </div>
+            <div class="z15d2">
+              <img class="z15i1" src="img/icons/iphone.png" alt="iphone">
+              <span>+123 456 7682</span>
+            </div>
+            <div class="z15d2">
+              <img class="z15i1" src="img/icons/pin.png" alt="pin">
+              <span>A108 Adam Street, New York, NY 535022</span>
+            </div>
+            <div class="z15d2">
+              <img class="z15i1" src="img/icons/instagram(1).png" alt="instagram logo">
+              <span>Techida-Company</span>
+            </div>
+          </div>
+        </div>
+        <div class="z1d3">
+          <form action="index.html" id="z15f1">
+            <input class="z15in1" id="z15in2" type="text" placeholder="name" name="name">
+            <input class="z15in1" id="z15in3" type="text" placeholder="subject" name="subject">
+            <input class="z15in1" id="z15in4" type="text" placeholder="email" name="email">
+            <textarea class="z16ta1" name="message" cols="30" rows="10" placeholder="message"></textarea>
+            <input id="z15in5" class="z1a1" type="submit" value="Send Now" name="submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section 16 -->
+  <div class="z1se">
+    <div class="w">
+      <iframe id="z16f1"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.3609292440824!2d80.032508111307!3d7.084090216364084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2fb6a031eb25f%3A0x5d31d65e1bffe988!2sRevoise!5e0!3m2!1sen!2slk!4v1706765196601!5m2!1sen!2slk"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <!-- footer  -->
+  <footer id="ft">
+    <div id="d11">
+      <span id="s2">&uarr;</span>
+    </div>
+    <div class="w">
+      <div id="d4" class="fsb">
+        <div class="d5" id="d10">
+          <a href="#"><img id="i3" src="img/logo.png" alt="logo"></a>
+          <p id="p">Lorem Ipsum Dolor Sit Amet Aspernatur Exercitationem Fugiat.</p>
+          <span>Follow Us</span>
+          <div id="d6">
+            <a class="a3" href="#"><img class="i4" src="img/icons/facebook.png" alt=""></a>
+            <a class="a3" href="#"><img class="i4" src="img/icons/instagram.png" alt=""></a>
+            <a class="a3" href="#"><img class="i4" src="img/icons/twitter.png" alt=""></a>
+            <a class="a3" href="#"><img class="i4" src="img/icons/linkedin-logo.png" alt=""></a>
+          </div>
+        </div>
+        <div class="d5">
+          <span>Site Map</span>
+          <div class="d7">
+            <a class="a4" href="#">Home</a>
+            <a class="a4" href="#">About</a>
+            <a class="a4" href="#">Services</a>
+            <a class="a4" href="#">Contact</a>
+          </div>
+        </div>
+        <div class="d5">
+          <span>Follow Us</span>
+          <div class="d7">
+            <a class="a4" href="#">Facebook</a>
+            <a class="a4" href="#">Instagram</a>
+            <a class="a4" href="#">Linkedin</a>
+            <a class="a4" href="#">X</a>
+          </div>
+        </div>
+        <div class="d5">
+          <span>Our Services</span>
+          <div class="d7">
+            <a class="a4" href="#">Digital Marketing</a>
+            <a class="a4" href="#">Web Development</a>
+            <a class="a4" href="#">Cyber Security</a>
+            <a class="a4" href="#">Graphic Design</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="d8">
+      <div class="w fsb" id="d9">
+        <div>
+          <p><span class="s1">&#169;2024 Created By : </span>Erramix</p>
+        </div>
+        <div>
+          <p>Terms Of Use <span class="s1">|</span> Privacy Policy</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    // offcanvas
+    var nav = document.getElementById("n");
+    var btn = document.getElementById("d2");
+    document.getElementById("d3").onclick = function () {
+      nav.classList.toggle("n");
+      btn.classList.toggle("d2");
+    };
+
+    // click to top
+    document.getElementById("d11").onclick = function () {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    };
+
+    // accordion
+    var click = document.getElementsByClassName("z14hh1");
+    var para = document.getElementsByClassName("z14p3");
+    var i;
+
+    for (i = 0; i < click.length; i++) {
+      click[i].addEventListener("click", function () {
+        var index = Array.prototype.indexOf.call(click, this);
+        var targetPara = para[index];
+        if (targetPara.style.display === "block") {
+          targetPara.style.display = "none";
+        } else {
+          targetPara.style.display = "block";
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+:root {
+  --font1: 'Outfit', sans-serif;
+  --fontColor: #5e5e5e;
+  --color: #1fa84f;
+  --colorbg: #eff0ef;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font1);
+}
+
+.w {
+  width: 1200px;
+  padding: 0 1%;
+  margin: 0 auto;
+}
+
+.fsb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fsa {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fc {
+  display: flex;
+  align-items: center;
+}
+
+#d1 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  align-items: center;
+}
+
+#i1 {
+  width: 150px;
+}
+
+.a {
+  text-decoration: none;
+  padding: 0 6px;
+  font-weight: bold;
+  color: var(--fontColor);
+}
+
+
+
+#n .a:nth-child(1)::after,
+#n .a:nth-child(4)::after {
+  content: ' \25BE';
+
+}
+
+.a2 {
+  text-decoration: none;
+  background-color: var(--color);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#i2 {
+  width: 15px;
+}
+
+#bt {
+  width: 35px;
+  height: 35px;
+  border: 1px solid var(--color);
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+#d3 {
+  display: none;
+  font-size: 30px;
+  font-weight: bold;
+  width: 50px;
+}
+
+
+/* footer  */
+#ft {
+  background-color: black;
+  color: #ddd;
+  padding-top: 60px;
+  position: relative;
+}
+
+.d5 {
+  width: 22%;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#D9 {
+  align-items: center;
+}
+
+#d10 {
+  background: #e6e1e121;
+}
+
+#i3 {
+  width: 50%;
+}
+
+#ftd1d1d2 {
+  border-top: 1px solid var(--colorbg);
+  padding: 16px 0;
+}
+
+#p {
+  color: var(--fontColor);
+  margin: 15px 0;
+  line-height: 32px;
+}
+
+.z1s13 {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  color: #b6b6b6;
+}
+
+.ftd1d1d1s2 {
+  background-color: var(--color);
+  padding: 18px;
+}
+
+#d6 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+#d4 {
+  margin-bottom: 30px;
+}
+
+.i4 {
+  width: 16px;
+  filter: invert(100%) sepia(95%) saturate(0%) hue-rotate(302deg) brightness(102%) contrast(104%);
+}
+
+.d7 {
+  margin-top: 20px;
+}
+
+.a3 {
+  display: block;
+  background-color: var(--color);
+  border-radius: 50px;
+  display: flex;
+  padding: 7px;
+}
+
+.a4 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ddd;
+}
+
+.a4::before {
+  content: "\203A";
+  margin-right: 20px;
+  font-size: 27px;
+  color: var(--fontColor);
+  margin-bottom: 5px;
+}
+
+.s1 {
+  color: #5e5e5e;
+}
+
+#d8 {
+  border-top: 1px solid var(--fontColor);
+}
+
+#d9 {
+  padding: 25px 0;
+
+}
+
+/* click to Top  */
+#d11 {
+  display: inline-block;
+  width: 60px;
+  background: white;
+  text-align: center;
+  border: 5px solid var(--color);
+  border-radius: 33px;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+}
+
+#s2 {
+  font-size: 40px;
+  color: var(--color);
+}
+
+
+/* Mobile Responsive */
+@media screen and (max-width:1200px) {
+  .w {
+    width: 98%;
+    padding: 0;
+  }
+
+  #d1 {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width:920px) {
+  .w {
+    width: 97%;
+  }
+
+  /* footer  */
+  #d4 {
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+  }
+
+  .d5 {
+    width: 30%;
+  }
+
+  #d6 {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:855px) {
+  #n {
+    order: 2;
+    margin: 10px auto;
+  }
+
+  .a {
+    padding: 0 8px;
+  }
+
+  #d2 {
+    order: 1;
+  }
+
+  @media screen and (max-width:650px) {
+
+    /* header */
+    .a {
+      padding: 0 6px;
+    }
+
+    /* footer  */
+    #d4 {
+      justify-content: space-around;
+    }
+
+    .d5 {
+      width: 45%;
+    }
+
+  }
+}
+
+@media screen and (max-width:520px) {
+
+  /* header */
+  #d1 {
+    position: relative;
+  }
+
+  #n {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: white;
+    bottom: -280px;
+    order: 1;
+  }
+
+  #d2 {
+    order: 2;
+    width: 100%;
+    position: absolute;
+    bottom: -323px;
+    background-color: white;
+    padding: 10px 0;
+  }
+
+  .n {
+    visibility: hidden;
+  }
+
+  .d2 {
+    visibility: hidden;
+  }
+
+
+  .a {
+    padding-bottom: 15px;
+  }
+
+  #d3 {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width:450px) {
+
+  /* footer  */
+  .d5 {
+    width: 90%;
+    text-align: center;
+  }
+
+}
